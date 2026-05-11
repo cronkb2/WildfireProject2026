@@ -1,0 +1,3 @@
+../Core/Src/bme_interface.c:15:8:bme68x_i2c_read	1
+../Core/Src/bme_interface.c:22:8:bme68x_i2c_write	1
+../Core/Src/bme_interface.c:28:6:bme68x_delay_us	1
