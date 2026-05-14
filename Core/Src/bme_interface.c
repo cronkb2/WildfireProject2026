@@ -24,7 +24,7 @@ int8_t bme68x_i2c_write(uint8_t reg_addr,const uint8_t *data,uint32_t len,void *
 	HAL_I2C_Mem_Write(&hi2c1,BME688_I2C_ADDR,reg_addr,I2C_MEMADD_SIZE_8BIT,(uint8_t*)data,len,HAL_MAX_DELAY);
 	return 0;
 }
-
+//Delay required by Bosch API operates in ms
 void bme68x_delay_us(uint32_t period, void *intf_ptr){
 	HAL_Delay(period / 1000);
 }

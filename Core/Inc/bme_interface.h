@@ -13,12 +13,12 @@
 
 extern I2C_HandleTypeDef hi2c1;
 
-//Function: bme68x_i2c_read
-//Purpose: Reads data from a BME688 sensor register using I2C
+//Function:bme68x_i2c_read
+//Purpose:Reads data from a BME688 sensor register using I2C
 //Inputs:
-//reg_addr-> Register address to read from
-//data-> Pointer to data buffer
-//len-> Number of bytes to read
+//reg_addr->Register address to read from
+//data->Pointer to data buffer
+//len->Number of bytes to read
 int8_t bme68x_i2c_read(uint8_t reg_addr,uint8_t *data,uint32_t len,void *intf_ptr);
 
 //Function:bme68x_i2c_write
