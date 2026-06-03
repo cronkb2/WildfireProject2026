@@ -1,6 +1,7 @@
 ../Core/Src/main.c:106:6:LoRa_Send	16	static
-../Core/Src/main.c:116:6:LoRa_Read	8	static
-../Core/Src/main.c:132:5:main	40	static
-../Core/Src/main.c:294:6:SystemClock_Config	96	static
-../Core/Src/main.c:339:6:HAL_TIM_PeriodElapsedCallback	16	static
-../Core/Src/main.c:353:6:Error_Handler	8	static,ignoring_inline_asm
+../Core/Src/main.c:115:6:Debug_Print	16	static
+../Core/Src/main.c:125:6:LoRa_Read	8	static
+../Core/Src/main.c:163:6:main	48	static
+../Core/Src/main.c:354:7:SystemClock_Config	96	static
+../Core/Src/main.c:399:7:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:413:7:Error_Handler	8	static,ignoring_inline_asm
